@@ -1,0 +1,6 @@
+iniciologin_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: iniciologinBundle:Default:index }
+iniciologin_login:
+    path:     /login
+    defaults: { _controller: iniciologinBundle:Default:logIn }
